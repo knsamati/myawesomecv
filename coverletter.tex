@@ -1,0 +1,147 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+\name{Komlan Nouwokpo}{SAMATI}
+\position{Ingénieur Statisticien{\enskip\cdotp\enskip}Economètre}
+\address{1580, Boulevard de la Kara, Lomé-Togo}
+
+\mobile{(+228) 91 85 06 28}
+\email{kn.samati@gmail.com}
+\homepage{http://knsamati.github.io/}
+\github{knsamati}
+\linkedin{Komlan Nouwokpo SAMATI}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+ \twitter{@Rsamati}
+\skype{kn.samati}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Monsieur Le Représentant Resident de l'UNICEF-Togo}
+  {Lomé, Togo}
+% The date on the letter, default is the date of compilation
+\letterdate{Lomé, le 08 Mai 2019}
+% The title of the letter
+\lettertitle{Monsieur le Représentant,}
+
+% How the letter is opened
+\letteropening{Monsieur le Représentant,}
+% How the letter is closed
+\letterclosing{Votre dévoué}
+
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Komlan N. SAMATI~~~·~~~Lettre de motivation}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+%\lettersection{About Me}
+Votre annonce parue sur votre site ayant retenue toute mon attention, je vous adresse ma candidature pour le poste de {\bf Information Management Officer}. Un examen de mes références suggère que je suis le candidat idéal:\\
+
+\begin{itemize}
+
+\item Je suis titulaire d’un master en économie et statistique, option Econométrie et Statistique de l’université de Toulouse 1 Capitole (France) et d’un diplôme d’ingénieur statisticien de l’Ecole Nationale de Statistique et d’Analyse Economique (ENSAE) de Dakar, l’un des trois centres de formation des Ingénieurs statisticiens en Afrique;
+\item J’occupe actuellement le poste d’Assistant Technique Statisticien, chargé de Suivi/Evaluation sur le Projet Education et Renforcement Institutionnel phase II (PERI II) du Partenariat Mondial pour l’Education (PME/GPE) dont les fonds sont gérés par la Banque Mondiale au Togo. Dans ce cadre, j’assure le Suivi et Evaluation du Projet et le suivi/évaluation des contrats de performance avec les inspections. J'accompagne la Direction de la Planification de l'Education et de l'Evaluation (DPEE) dans l'amélioration de la base de donne StatEduc et membre de l'équipe de Data Must Speak où Je suis chargé du Tableau de bord secondaire;
+\item Je suis formé à la méyhodologie GEMS (Geo-Enabling method for Monitoring and Supervison) de la Banque Mondiale qui offre des solutions pour un suivi et une évaluation rapide, même dans les contexte les plus difficiles en utilisant des outils Open Source et en temps réel.
+\item Pour la révision du Rapport d'état du systeme éducatif national (RESEN 2019) du Togo, je suis membre du comité technique en charge du Chapitre qualité, gestion et pilotage. J'avais déja participé à l'élaboration du RESEN 2014 du Togo et au modèle de simulation du Plan sectoriel de l'Education.
+\item J’ai été consultant sur le Projet CapED du Togo en tant qu’expert en Système d’Information et de Management de l’Alphabétisation et de l’Education non Formelle (SIM AENF) pour le compte de l’UNESCO. Dans ce cadre, j'ai élaboré avec le Professeur Alain Mingat du chapitre additionnel sur l'alphabétisation et l'éducation non formelle et le modèle de simulation.
+
+\item Je suis très passionné par la programmation Informatique surtout les logiciels d'analyse statistique et de diffusion de l'information avec des logiciel open sources  comme R et Python. J'utilise également Qgis pour l'élaboration des cartes statistiques et R et Python des cartes statiques et  interactives.
+%et 
+\end{itemize}
+
+Mes expériences dans le cadre de PERI2 en tant que Statisticien, chargé de Suivi et Evaluation et  dans l’accompagne du Ministère des Enseignements Primaire, Secondaire et de la Formation Professionnelle (MEPSFP) dans l'amélioration de leur base de données StatEduc pour le développement des statistiques scolaires ainsi que mes différentes consultations pour le compte de l’UNICEF et de l’UNESCO m’ont permis d’acquérir toutes les connaissances nécessaires à la bonne exécution des tâches du poste à pourvoir.
+Je reste à votre disposition pour toutes informations complémentaires concernant ma candidature.\\
+Je vous prie d’agréer, Monsieur/ Madame Le/la  Directeur (trice, l’expression de mes sentiments les plus distingués.
+\\
+
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
